@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="src/style.css">
-  <title>JS Drum Kit</title>
-</head>
-<body>
-  <div class="keys">
-    <div data-key="77" class="key">
-      <kbd>M</kbd>
-      <span class="sound">clap</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>JS Drum Kit</title>
+  </head>
+  <body>
+    <div class="keys">
+      <div data-key="77" class="key">
+        <kbd>M</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="69" class="key">
+        <kbd>E</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="76" class="key">
+        <kbd>L</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="73" class="key">
+        <kbd>I</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="78" class="key">
+        <kbd>N</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="69" class="key">
+        <kbd>E</kbd>
+        <span class="sound">clap</span>
+      </div>
     </div>
-    <div data-key="65" class="key">
-      <kbd>A</kbd>
-      <span class="sound">clap</span>
-    </div>
-    <div data-key="68" class="key">
-      <kbd>D</kbd>
-      <span class="sound">clap</span>
-    </div>
-    <div data-key="69" class="key">
-      <kbd>E</kbd>
-      <span class="sound">clap</span>
-    </div>
-    <div data-key="76" class="key">
-      <kbd>L</kbd>
-      <span class="sound">clap</span>
-    </div>
-    <div data-key="73" class="key">
-      <kbd>I</kbd>
-      <span class="sound">clap</span>
-    </div>
-    <div data-key="78" class="key">
-      <kbd>N</kbd>
-      <span class="sound">clap</span>
-    </div>
-    <div data-key="69" class="key">
-      <kbd>E</kbd>
-      <span class="sound">clap</span>
-    </div>
-  </div>
-  
-</body>
+
+    <audio data-key="65" src="src/alien-spaceship_daniel_simion.wav"></audio>
+    <audio data-key="68" src="src/bells-tibetan-daniel_simon.wav"></audio>
+    <audio data-key="69" src="src/European_Dragon_Roaring_and_breathe_fire-daniel-simon.wav"></audio>
+    <audio data-key="73" src="src/chinese-gong-daniel_simon.wav"></audio>
+    <audio data-key="76" src="src/heavy-rain-daniel_simon.wav"></audio>
+    <audio data-key="77" src="src/tolling-bell_daniel-simion.wav"></audio>
+    <audio data-key="78" src="src/water-drops-daniel_simon.wav"></audio>
+
+    <script src="src/index.js"></script>
+  </body>
 </html>
