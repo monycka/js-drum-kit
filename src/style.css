@@ -12,6 +12,15 @@ body,html {
   font-family: 'Patrick Hand', cursive;
 }
 
+footer {
+  font-size: 12px;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
 .keys {
   display: flex;
   flex: 1;
@@ -29,15 +38,15 @@ body,html {
   transition: all .07s ease;
   width: 10rem;
   text-align: center;
-  color: white;
+  color: #fff;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #70CD09;
-  box-shadow: 0 0 1rem #70CD09
+  border-color: #e3278e;
+  box-shadow: 0 0 1rem #e3278e;
 }
 
 kbd {
